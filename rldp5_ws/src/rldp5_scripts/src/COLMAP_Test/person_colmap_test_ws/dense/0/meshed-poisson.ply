@@ -1,0 +1,30 @@
+ply
+format binary_little_endian 1.0
+comment Running Screened Poisson Reconstruction (Version 8.0)
+comment --in /home/acer/crg/ddp/rldp5_ws/src/rldp5_scripts/src/person_colmap_test_ws/dense/0/fused.ply
+comment --depth 13
+comment --out /home/acer/crg/ddp/rldp5_ws/src/rldp5_scripts/src/person_colmap_test_ws/dense/0/meshed-poisson.ply
+comment --pointWeight 1.000000
+comment --density
+comment --color 32.000000
+comment #             Tree set in:       1.0 (s),    8030.8 (MB)
+comment #      Constraints set in:       0.9 (s),    8086.8 (MB)
+comment # Linear system solved in:     315.6 (s),    8087.4 (MB)
+comment #        Got triangles in:       0.4 (s),    8087.4 (MB)
+comment #             Total Solve:     317.9 (s),    8087.4 (MB)
+comment Running Surface Trimmer (V5)
+comment 	--in /home/acer/crg/ddp/rldp5_ws/src/rldp5_scripts/src/person_colmap_test_ws/dense/0/meshed-poisson.ply
+comment 	--out /home/acer/crg/ddp/rldp5_ws/src/rldp5_scripts/src/person_colmap_test_ws/dense/0/meshed-poisson.ply
+comment 	--trim 10.000000
+comment #Trimmed In:       0.0 (s)
+element vertex 0
+property float x
+property float y
+property float z
+property float value
+property uchar red
+property uchar green
+property uchar blue
+element face 0
+property list uchar int vertex_indices
+end_header
