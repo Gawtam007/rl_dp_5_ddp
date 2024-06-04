@@ -27,7 +27,6 @@ def callback(data):
   cv2.waitKey(400)
       
 def receive_message():
-  print("sad")
   rospy.init_node('video_sub_py', anonymous=True)
   rospy.Subscriber('image_raw', Image, callback)
   rospy.spin()
